@@ -1,0 +1,791 @@
+{
+  "version": 1,
+  "settings": {
+    "autoDouble": true,
+    "target": 1.8,
+    "examDelta": 0
+  },
+  "fachs": [
+    {
+      "id": "deu",
+      "name": "Deutsch",
+      "type": "LF",
+      "area": 1,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 2,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 4,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "mat",
+      "name": "Mathematik",
+      "type": "LF",
+      "area": 3,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 2,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 4,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "eng",
+      "name": "Englisch",
+      "type": "LF",
+      "area": 1,
+      "pruefung": "",
+      "modernFS": true,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 2,
+      "nMu": 3,
+      "gfs": true,
+      "gfsHj": 1,
+      "minAnr": 4,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "bio",
+      "name": "Biologie",
+      "type": "BF",
+      "area": 3,
+      "pruefung": "m",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": true,
+      "gfsHj": 2,
+      "minAnr": 4,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "phy",
+      "name": "Physik",
+      "type": "BF",
+      "area": 3,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 4,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "ges",
+      "name": "Geschichte",
+      "type": "BF",
+      "area": 2,
+      "pruefung": "m",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": true,
+      "gfsHj": 0,
+      "minAnr": 4,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "geo",
+      "name": "Geographie",
+      "type": "BF",
+      "area": 2,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 2,
+      "double": false,
+      "hjActive": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "gk",
+      "name": "Gemeinschaftskunde",
+      "type": "BF",
+      "area": 2,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 2,
+      "double": false,
+      "hjActive": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "eth",
+      "name": "Ethik",
+      "type": "BF",
+      "area": 2,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 4,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "bk",
+      "name": "Bildende Kunst",
+      "type": "BF",
+      "area": 1,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": true,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 2,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "spo",
+      "name": "Sport",
+      "type": "BF",
+      "area": 0,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": true,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 4,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "inf",
+      "name": "Informatik",
+      "type": "BF",
+      "area": 3,
+      "pruefung": "",
+      "modernFS": false,
+      "praktisch": false,
+      "wS": 50,
+      "nArb": 1,
+      "nMu": 3,
+      "gfs": false,
+      "gfsHj": 0,
+      "minAnr": 2,
+      "double": false,
+      "hjActive": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "kurse": {
+    "deu": [
+      {
+        "arb": [
+          10,
+          11
+        ],
+        "mu": [
+          12,
+          10,
+          11
+        ]
+      },
+      {
+        "arb": [
+          9,
+          10
+        ],
+        "mu": [
+          11,
+          12,
+          10
+        ]
+      },
+      {
+        "arb": [
+          11,
+          12
+        ],
+        "mu": [
+          12,
+          13,
+          11
+        ],
+        "override": 13
+      },
+      {
+        "arb": [
+          10,
+          11
+        ],
+        "mu": [
+          12,
+          12,
+          13
+        ]
+      }
+    ],
+    "mat": [
+      {
+        "arb": [
+          13,
+          12
+        ],
+        "mu": [
+          14,
+          13,
+          15
+        ]
+      },
+      {
+        "arb": [
+          14,
+          13
+        ],
+        "mu": [
+          13,
+          14,
+          12
+        ]
+      },
+      {
+        "arb": [
+          12,
+          11
+        ],
+        "mu": [
+          12,
+          13,
+          12
+        ]
+      },
+      {
+        "arb": [
+          13,
+          14
+        ],
+        "mu": [
+          14,
+          14,
+          13
+        ]
+      }
+    ],
+    "eng": [
+      {
+        "arb": [
+          12,
+          11
+        ],
+        "mu": [
+          13,
+          12,
+          14
+        ]
+      },
+      {
+        "arb": [
+          13,
+          12
+        ],
+        "mu": [
+          12,
+          13,
+          13
+        ],
+        "gfs": 14
+      },
+      {
+        "arb": [
+          11,
+          12
+        ],
+        "mu": [
+          12,
+          11,
+          13
+        ]
+      },
+      {
+        "arb": [
+          12,
+          13
+        ],
+        "mu": [
+          13,
+          14,
+          13
+        ]
+      }
+    ],
+    "bio": [
+      {
+        "arb": [
+          11
+        ],
+        "mu": [
+          12,
+          11,
+          13
+        ]
+      },
+      {
+        "arb": [
+          12
+        ],
+        "mu": [
+          13,
+          12,
+          12
+        ]
+      },
+      {
+        "arb": [
+          13
+        ],
+        "mu": [
+          12,
+          13,
+          14
+        ],
+        "gfs": 13
+      },
+      {
+        "arb": [
+          12
+        ],
+        "mu": [
+          13,
+          12,
+          13
+        ]
+      }
+    ],
+    "phy": [
+      {
+        "arb": [
+          3
+        ],
+        "mu": [
+          5,
+          4,
+          4
+        ]
+      },
+      {
+        "arb": [
+          6
+        ],
+        "mu": [
+          6,
+          7,
+          5
+        ]
+      },
+      {
+        "arb": [
+          7
+        ],
+        "mu": [
+          7,
+          6,
+          8
+        ]
+      },
+      {
+        "arb": [
+          8
+        ],
+        "mu": [
+          8,
+          7,
+          9
+        ]
+      }
+    ],
+    "ges": [
+      {
+        "arb": [
+          9
+        ],
+        "mu": [
+          10,
+          11,
+          10
+        ],
+        "gfs": 12
+      },
+      {
+        "arb": [
+          10
+        ],
+        "mu": [
+          9,
+          11,
+          10
+        ]
+      },
+      {
+        "arb": [
+          11
+        ],
+        "mu": [
+          10,
+          12,
+          11
+        ]
+      },
+      {
+        "arb": [
+          10
+        ],
+        "mu": [
+          11,
+          10,
+          12
+        ]
+      }
+    ],
+    "geo": [
+      {
+        "arb": [
+          8
+        ],
+        "mu": [
+          9,
+          8,
+          10
+        ]
+      },
+      {
+        "arb": [],
+        "mu": []
+      },
+      {
+        "arb": [
+          9
+        ],
+        "mu": [
+          10,
+          9,
+          9
+        ]
+      },
+      {
+        "arb": [],
+        "mu": []
+      }
+    ],
+    "gk": [
+      {
+        "arb": [],
+        "mu": []
+      },
+      {
+        "arb": [
+          11
+        ],
+        "mu": [
+          12,
+          11,
+          12
+        ]
+      },
+      {
+        "arb": [],
+        "mu": []
+      },
+      {
+        "arb": [
+          12
+        ],
+        "mu": [
+          13,
+          12,
+          11
+        ]
+      }
+    ],
+    "eth": [
+      {
+        "arb": [
+          13
+        ],
+        "mu": [
+          14,
+          13,
+          12
+        ]
+      },
+      {
+        "arb": [
+          14
+        ],
+        "mu": [
+          13,
+          14,
+          14
+        ]
+      },
+      {
+        "arb": [
+          12
+        ],
+        "mu": [
+          13,
+          12,
+          13
+        ]
+      },
+      {
+        "arb": [
+          13
+        ],
+        "mu": [
+          14,
+          13,
+          14
+        ]
+      }
+    ],
+    "bk": [
+      {
+        "arb": [
+          10
+        ],
+        "mu": [
+          11,
+          10,
+          11
+        ]
+      },
+      {
+        "arb": [
+          11
+        ],
+        "mu": [
+          12,
+          11,
+          12
+        ]
+      },
+      {
+        "arb": [
+          12
+        ],
+        "mu": [
+          11,
+          12,
+          12
+        ]
+      },
+      {
+        "arb": [
+          11
+        ],
+        "mu": [
+          12,
+          12,
+          13
+        ]
+      }
+    ],
+    "spo": [
+      {
+        "arb": [
+          12
+        ],
+        "mu": [
+          13,
+          12,
+          12
+        ]
+      },
+      {
+        "arb": [
+          13
+        ],
+        "mu": [
+          12,
+          13,
+          13
+        ]
+      },
+      {
+        "arb": [
+          12
+        ],
+        "mu": [
+          13,
+          12,
+          13
+        ]
+      },
+      {
+        "arb": [
+          14
+        ],
+        "mu": [
+          13,
+          14,
+          13
+        ]
+      }
+    ],
+    "inf": [
+      {
+        "arb": [
+          11
+        ],
+        "mu": [
+          12,
+          11,
+          12
+        ]
+      },
+      {
+        "arb": [
+          13
+        ],
+        "mu": [
+          12,
+          13,
+          13
+        ]
+      },
+      {
+        "arb": [
+          12
+        ],
+        "mu": [
+          13,
+          12,
+          12
+        ]
+      },
+      {
+        "arb": [
+          14
+        ],
+        "mu": [
+          13,
+          14,
+          14
+        ]
+      }
+    ]
+  },
+  "pruefung": {
+    "deu": {
+      "s": 11
+    },
+    "mat": {
+      "s": 13,
+      "m": 14
+    },
+    "eng": {
+      "s": 12,
+      "k": 13
+    },
+    "bio": {
+      "m": 12
+    },
+    "ges": {
+      "m": 10
+    }
+  }
+}
